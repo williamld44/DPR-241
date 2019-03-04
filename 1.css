@@ -1,0 +1,112 @@
+body { background-color: #3c4849;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif; }
+
+header {
+	background-color: #4747B0;
+	color: #FFFFFF;
+	background-position: right;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 100px;
+	padding-top: 30px;
+	padding-left: 3em;}
+
+h1 { margin-bottom: 0;
+	margin-top: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 3em;
+	letter-spacing: 0.25em;	 }
+
+#wb { background-image: url(code.jpg);
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%; }
+
+nav { float: none;
+	width: 646px;
+	font-weight: bold;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-bottom: 0em;
+	font-size: 150%; } 
+
+nav a { text-decoration: none; 
+	-webkit-transition: color 3s ease-out;
+	    -moz-transition: color 3s ease-out;
+	    -o-transition: color 3s ease-out; }
+
+nav a:link {
+	color: #B8DBED;}
+
+nav a:visited {
+	color: #FFFFFF;}
+
+nav a:hover {
+	color: #0570E0;}
+
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	background-color: #FFFFFF;
+	display: block;
+	margin-left: 0px;}
+
+h2 { color: #FF0000;
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #CCCCCC; } 
+
+@media only screen and (max-width:37.5em){
+	main{
+        padding-bottom: 0.1em;
+        padding-top: 0.1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 90%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    nav{
+        padding: 0;
+    }
+    nav a{
+        display: block; }
+    #wb{
+        display: none;
+        background-image: none;
+        height: 0;
+    }
+}
+    
+@media only screen and (max-width: 64em){
+    body{
+        margin: 0;
+        background-color: #3c4849;
+    }
+    header{ 
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0;
+	height: auto;
+    }
+    h1{ 
+	letter-spacing: 0.1em; 
+    }
+    main{
+        margin-left: 0;
+    }
+    nav{
+        float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+    #wb{
+        margin: 0;
+        height: 200px;
+    }
+}
