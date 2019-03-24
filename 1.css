@@ -61,18 +61,6 @@ main {
 	display: block;
 	margin-left: 0px;}
 
-.main_section{
-	background-color: #fff;
-  margin: 1em auto;
-  width: 95%;
-}
-
-.main_section p{
-	padding: .875em;
-	border: dotted;
-	margin: .5em;
-}
-
 h2 { color: #FF0000;
 	font-family: Georgia, "Times New Roman", serif;
 	text-shadow: 1px 1px 1px #CCCCCC; } 
@@ -118,10 +106,6 @@ h2 { color: #FF0000;
     main{
         margin-left: 0;
     }
-	
-	.main_section{
-  width: 90%;
-}
 	
     nav{
         float: none;
