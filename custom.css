@@ -48,18 +48,6 @@ h4{
   color: #000;
 }
 
-.nav { -webkit-transition: color 3s ease-out;
-	-moz-transition: color 3s ease-out;
-	 -o-transition: color 3s ease-out; }
-.nav :link {
-	color: #0570E0;}
-
-.nav :visited {
-	color: #fff;}
-
-.nav :hover {
-	color: #B8DBED;}
-
 .nav .button {
  float: none;
  font-weight: bold;
