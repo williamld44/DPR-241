@@ -1,7 +1,9 @@
+*{box-sizing:border-box;}
+
 body { background-color: #3c4849;
 	color: #fff;
 	line-height: 1.25;
-	font-family: "Lato", Arial, sans-serif; }
+	font-family: Georgia, "Times New Roman", serif; }
 
 header {
 	background-color: #4747B0;
@@ -13,10 +15,28 @@ header {
 	padding-top: 30px;
 	padding-left: 3em;}
 
+img{
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ddd; 
+  border-radius: 4px;  
+  padding: 5px; 
+  width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;}
+
+a{
+	text-decoration: none;
+  color:#333;}
+
+
 h1 { margin-bottom: 0;
 	margin-top: 0;
 	font-family: Georgia, "Times New Roman", serif;
 	font-size: 3em;
+	text-align: center;
+	padding: .275em;
 	letter-spacing: 0.25em;	 }
 
 #wb { background-image: url(code.jpg);
@@ -27,11 +47,23 @@ h1 { margin-bottom: 0;
 nav { float: none;
 	width: 646px;
 	font-weight: bold;
+	text-align: center;
 	padding-top: 0em;
 	padding-right: 0em;
 	padding-left: 0em;
 	padding-bottom: 0em;
-	font-size: 150%; } 
+	font-size: 150%; }
+
+nav ul{
+  list-style: none;
+  margin-bottom: 0;
+  font-family: 'Roboto';
+  padding: 0 1.5em;}
+
+nav li{
+  padding:.5em;
+  font-weight: 800;
+  letter-spacing: 2px;}
 
 nav a { text-decoration: none; 
 	-webkit-transition: color 3s ease-out;
@@ -46,12 +78,6 @@ nav a:visited {
 
 nav a:hover {
 	color: #0570E0;}
-img {
-  border: 1px solid #ddd; 
-  border-radius: 4px;  
-  padding: 5px; 
-  width: 150px; 
-}
 
 main {
 	padding-top: 1px;
