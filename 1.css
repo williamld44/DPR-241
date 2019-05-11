@@ -66,6 +66,31 @@ h2 { color: #FF0000;
 	font-family: Georgia, "Times New Roman", serif;
 	text-shadow: 1px 1px 1px #CCCCCC; }
 
+a:link {
+	color: #ee3a9c;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #ee8c3a;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+	color: #ee3a9c;
+  background-color: transparent;
+  text-decoration: none;}
+
+a:active {
+  color: #3a9cee;
+  background-color: transparent;
+  text-decoration: underline;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;}
+
 .row{
 	border: 3px solid #3c4849;
   margin: 0em .5em 0em .5em;}
