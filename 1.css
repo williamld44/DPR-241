@@ -22,7 +22,7 @@ img{
 	margin-left: auto;
 	margin-right: auto; }
 
-h1 { background-color: #393d40;
+h1 {
 	text-align: center;
 	color:#fff;
 	padding: .275em;
@@ -109,8 +109,21 @@ footer{
 	background-color: #393d40;
 	padding: 0.275em;
   color: #fff;
-  text-align: center;
+  text-align: center; }
+
+.main_section{
+	background-color: #fff;
+  margin: 1em auto;
+  width: 95%;
+ 
 }
+
+.main_section p{
+	padding: .875em;
+	border: dotted;
+	margin: .5em;
+}
+
 
 @media screen and (min-width:48em) {
 
