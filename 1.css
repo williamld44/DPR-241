@@ -142,59 +142,76 @@ a:active {
   color: #393d40;
   border:2px dashed #393d40;}
 
-@media only screen and (max-width:37.5em){
-	main{
-        padding-bottom: 0.1em;
-        padding-top: 0.1em;
-        padding-left: 1em;
-        padding-right: 1em;
-        font-size: 90%;
-    }
-    h1{
-        font-size: 2em;
-    }
-    nav{
-        padding: 0;
-    }
-    nav a{
-        display: block; }
-	
-    #wb{
-        display: none;
-        background-image: none;
-        height: 0;
-    }
+@media screen and (min-width:48em) {
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
 }
-    
-@media only screen and (max-width: 64em){
-    body{
-        margin: 0;
-        background-color: #3c4849;
-    }
-    header{ 
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-left: 0;
-	height: auto;
-    }
-    h1{ 
-	letter-spacing: 0.1em; 
-    }
-    main{
-        margin-left: 0;
-    }
-	
-    nav{
-        float: none;
-        width: auto;
-        text-align: center;
-        padding: 0.5em;
-    }
-    #wb{
-        margin: 0;
-        height: 200px;
-    }
+
+[class*="col-"]{
+	float:left;
+	padding:1em;
+	margin: 1em;
 }
+
+.col-1 {
+	width: 20%;
+	height: 12em;
+	background-color: #393d40;
+}
+
+.col-1 p{
+	margin:0;
+}
+
+.col-2{
+	width: 47%;
+	background-color: #fff;
+	border: 2px solid #393d40;
+}
+
+.col-3{
+	width: 20%;
+	background-color: #fff;
+	overflow:hidden;
+}
+}
+
+@media screen and (min-width:64em) {
+nav li{
+	display: inline-block;
+}
+
+.row{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.col-1, .col-3{
+	height: 16em;
+}
+
+.col-2{
+	width: 50%;
+}
+}
+
+@media screen and (min-width: 90em){
+
+.row{
+  max-width: 1380px;
+  margin: 0 auto;
+}
+}
+
+@media screen and (min-width:91em) {
+.col-2{
+	width: 53%;
+}
+}
+
 @media screen and (min-width:160em){
 .wrapper{
 	width:86%;
@@ -215,18 +232,4 @@ a:active {
 	width: 55%;
 	height: 23em;
 }
-
-.col-3 img{
-	margin-top: 4.5em;
-}
-
-.main_section{
-  width: 100%;
-}
-
-.clouds {
-  border-style:hidden;
-  margin-top: 10em;
-}
-
 }
