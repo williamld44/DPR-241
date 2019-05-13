@@ -103,7 +103,9 @@ footer{
 	background-color: #393d40;
 	padding: 0.275em;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+font-size: 75%;
+	font-style: italic; }
 
 .main_section{
 	background-color: #fff;
@@ -181,7 +183,13 @@ nav li{
 
 .main_section{
   width: 90%;
-}	
+}
+	#bottom-fixed{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 }
 
 @media screen and (min-width: 90em){
@@ -189,6 +197,10 @@ nav li{
 .row{
   max-width: 1380px;
   margin: 0 auto;
+}
+	#bottom-fixed{
+  position: fixed;
+  margin-top: 10em;
 }
 }
 
